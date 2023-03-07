@@ -1,0 +1,487 @@
+
+
+/***    Login Page     ***/
+
+
+.button {
+  min-width: 180px;
+  min-height: 45px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 550;
+  color: #ffffff;
+  /* background: #b90f0f; */
+background: linear-gradient(90deg, rgb(60, 95, 160) 0%, rgb(22, 48, 87) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(65, 85, 110, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  /* padding: 10px; */
+  }
+
+
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-10px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+/*  */
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+
+
+
+
+.Login-header{
+  width: 100%;
+position:fixed;
+background-color: rgb(34,39,46);
+ position:fixed;
+  height: 100%;
+  border: 1px solid rgb(51, 63, 99);
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 10%;
+  display: block;
+}
+.Login-baslik{
+  /* font-family:'Times New Roman', Times, serif ; */
+   /* font-size: 2.5rem; */
+   /* margin-bottom: 1px; */
+  text-align: left;
+  font-size: 1.3rem;
+color: #faf5f5;
+  color: rgb(255, 253, 253);
+
+}
+.login-lgn{
+  width: 200px;
+  
+}
+.Login-Form-head{
+  text-align: center;
+  background-color: rgb(39,53,73);
+  display:block;
+  margin: auto;
+  border-radius: 4%;
+  min-width: 25rem;
+  min-height: 35rem;
+  padding-top: 2rem;
+  max-width:300px;
+
+}
+
+
+
+.Login-forms{
+  font-size: 100%;
+  font-family:'Times New Roman', Times, serif ;
+  border-radius: 5px;
+  height:30%;
+}
+.Login-inputs{
+  padding-top: 7px;
+  margin-left: 4px;
+  border-radius: 10px;
+  background-color: rgba(192, 190, 190, 0.286);
+  width: 12rem;
+  height: 2rem;
+}
+
+.Login-link{
+ font-size: 1rem;
+ text-align: center;
+ margin: auto;
+ color: white;
+ text-decoration: none;
+ 
+}
+.Login-buton{
+  cursor: pointer;
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 22px;
+  font-size: 1.2rem;
+  font-family: roboto;
+  font-weight: 300;
+  line-height: 2.5em;
+  margin-top: auto;
+  margin-bottom: 25px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.Login-buton:hover{
+  background:rgb(123, 133, 162);
+  transition: all .5s;
+
+}
+.Login-buton:active {
+
+  background-color: rgb(122, 126, 142);
+
+  box-shadow: 0 1px rgb(131, 135, 150);
+
+  transform: translateY(1px);
+}
+
+
+
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+/***    Landing Page     ***/
+
+.Landing-header{
+  /* background-color: rgb(198, 217, 231); */
+   width: 100%; 
+   height: 100%;
+   top: 8%;
+   background-image:url(foto/bgrld1.jpg);
+  position:fixed;
+   /* max-width: 100%;  */
+  min-height: 100%;
+  padding-top: 10%;
+border-width: 100%;
+background-size: 100%;
+background-repeat:no-repeat;
+background-size:cover;
+/* background-position: auto; */
+
+
+
+}
+.Landing-header-div{
+  background-color: #2f427677;
+  margin: auto;
+  border: 4px;
+  border-color: #3e5186;
+  text-align: center;
+  /* width: 40%; */
+  width: 300px;
+  height: 400px;
+  /* padding-top: 0.5%; */
+  border-style:ridge;
+margin-left: 4%;
+border-radius: 2%;
+
+}
+/* .Landing-h{ */
+  /* color: rgb(156, 30, 30); */
+  /* font-family: 'Arial Narrow Bold', sans-serif; */
+  /* font-size:3rem; */
+  /* margin:auto; */
+  /* margin: 2rem 0 1rem 0; */
+  /* text-align: center; */
+  
+  /* margin-top: 4%; */
+/* } */
+/* .Landing-p{ */
+  /* color: rgb(201, 24, 24); */
+  /* font-family:cursive; */
+  /* font-size:1.3rem; */
+  /* padding-bottom: 5%; */
+  /* margin:auto; */
+  /* margin: 2rem 0 1rem 0; */
+  /* text-align: center; */
+
+/* } */
+.Landing-button {
+  /* display:flexbox; */
+  /* margin-top: 25%; */
+   /* padding: ;  */
+   width: 40%;
+   height: 3rem;
+  border-width: 20%;
+  border: 1px solid #000000;
+  background:#667ebfaf;
+  color: #000000;
+ font-size: large;
+ font-style:oblique;
+  border-radius: 10px;
+  transition: all .5s;
+  text-align: center;
+  margin: auto;
+
+}
+
+.Landing-button:hover {
+  background: rgb(118, 127, 155);
+  transition: all .5s
+}
+
+
+
+
+/*  registerPage */
+/*  registerPage */
+/*  registerPage */
+/*  registerPage */
+/*  registerPage */
+/*  registerPage */
+
+.Register-header{
+  width: 100%;
+  position:fixed;
+  background-color: rgb(34,39,46);
+   position:fixed;
+    height: 100%;
+    border: 1px solid rgb(51, 63, 99);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10%;
+    display: block;
+}
+
+.Register-Form-head{
+  text-align: center;
+  background-color: rgb(39,53,73);
+  display:block;
+  margin: auto;
+  border-radius: 4%;
+  min-width: 25rem;
+  min-height: 35rem;
+  padding-top: 2rem;
+  max-width:300px;
+}
+
+
+.Register-inputs{
+  /* padding-top: 7px; */
+  /* margin-left: 4px; */
+  border-radius: 10px;
+  background-color: rgba(192, 190, 190, 0.286);
+  width: 12rem;
+  height: 2rem;
+  /* padding-top: 1.5rem; */
+  margin-left: 0.5rem;
+  
+}
+.Register-inputs1{
+  /* padding-top: 7px; */
+  /* margin-left: 4px; */
+  border-radius: 10px;
+  background-color: rgba(192, 190, 190, 0.286);
+  width: 12rem;
+  height: 2rem;
+  padding-top: 0.4rem;
+  margin-right: -2rem;
+  margin-left: 0.6rem;
+}
+.Register-link{
+  font-size: 1rem;
+  text-align: center;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+ }
+
+.Register-baslik{
+  text-align: left;
+  font-size: 1.1rem;
+  color: rgb(255, 253, 253);
+
+}
+.Password-Form-head{
+  text-align: center;
+  background-color: rgb(39,53,73);
+  display:block;
+  margin: auto;
+  border-radius: 4%;
+  min-width: 25rem;
+  min-height: 35rem;
+  padding-top: 2rem;
+  max-width:300px;
+}
+
+ /* ForgetPasswordPage  */
+ .Password-head{
+  width: 100%;
+  position:fixed;
+  background-color: rgb(34,39,46);
+   position:fixed;
+    height: 100%;
+    border: 1px solid rgb(51, 63, 99);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10%;
+    display: block;
+ }
+ .Password-input{
+  border-radius: 10px;
+  background-color: rgba(192, 190, 190, 0.286);
+  width: 12rem;
+  height: 2rem;
+  padding-top: 0.4rem;
+  margin-right: -2rem;
+  margin-left: 0.6rem;
+ }
+.Password-baslik{
+  text-align: left;
+  font-size: 1.3rem;
+  color: rgb(255, 253, 253);
+
+}
+.Password-eye{
+  /* width: 1.5rem; */
+  height: 20px;
+  /* height: 3rem; */
+  /* background: transparent; */
+  /* padding-top: 18px; */
+}
+.ssss{
+background-color: transparent;
+border: none;
+margin-top: -15px;
+}
+
+
+
+/* HomePage */
+/* HomePage */
+/* HomePage */
+/* HomePage */
+/* HomePage */
+
+
+.navbar-header{
+  background-color: #3e5186;
+   width: 100%; 
+  position: absolute;
+   /* max-width: 100%;  */
+  /* min-height: 100%; */
+  /* padding-top: 15%; */
+  max-height: 120px;
+border-width: 100%;
+
+/* top: 10; */
+
+
+}
+.navbar-navs{
+  /* background-color: #bfccce; */
+  /* height: 3%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 0rem; */
+  position: sticky;
+  top: 0;
+  /* z-index: 30; */
+  left: 0;
+  
+}
+.navbar-menu{
+ display:block;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ /* height: 16%; */
+ /* max-width: 1900px; */
+ 
+ 
+}
+.navbar-nav-menu{
+  display: flex;
+  list-style: none;
+  text-align: center;
+  /* margin-right: 2rem; */
+ 
+  right: 0;
+}
+
+.navbar-nav-logo{
+  /* color: #f5b921; */
+  /* align-items: center; */
+   /* margin-left: 30px;  */
+  /* cursor: pointer; */
+  /* text-decoration: none; */
+  /* font-size: 2rem; */
+  /* flex-grow: 1; */
+position:absolute;
+/* left: 0; */
+/* top: 4%; */
+/* padding-left: 1%; */
+/* border: 0px solid gray; */
+/* padding-top: 1rem; */
+}
+.navbar-link{
+  color: #000000;
+ text-decoration: none;
+}
+.navbar-li{
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin-left: 6%;
+  font-size:1.3rem;
+  color: #0001;
+ 
+
+
+}
+.navbar-logo{
+  /* height: 20%; */
+  width: 3rem;
+}
+.navbar-logins{
+  font-size: large;
+/* margin: right; */
+/* position: relative; */
+/* margin-right: 10px; */
+/* background-image :url(foto/login.png); */
+/* background-size: contain; */
+/* background-repeat: no-repeat; */
+/* width: 50px;
+height: 60px; */
+}
+
+/* ANAPAGE */
+/* ANAPAGE */
+/* ANAPAGE */
+/* ANAPAGE */
+/* ANAPAGE */
+/* ANAPAGE */
+/* ANAPAGE */
+.homes-header{
+  top: 8%;
+  /* padding-top: 60px; */
+  background: rgb(183, 189, 209);
+  width: 100%;
+  color:#000000;
+  height: 90%;
+  /* min-height: 1500px; */
+  position: absolute;
+
+}
+.homes-logo{
+  width: 150px;
+  height: 150px;
+margin-left: 50%;
+/* right: 30%; */
+  
+}
+/* .home-text{
+  margin-left: 3%;
+  font-size: 1.5rem;
+  
+} */
+
+
